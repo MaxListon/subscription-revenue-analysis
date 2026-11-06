@@ -1,0 +1,17 @@
+{
+  "baseline_mrr_cents": 9577360,
+  "expected_increment_cents": 405950.0,
+  "simulated_increment_mean_cents": 405634.128,
+  "p05_increment_cents": 235480,
+  "p95_increment_cents": 581380,
+  "draws": 10000,
+  "seed": 7142026,
+  "assumptions": {
+    "voluntary_rescue_probability": "Uniform(0.15,0.45)",
+    "payment_failure_rescue_probability": "Uniform(0.25,0.55)",
+    "rescue_unit": "customer Bernoulli, opening MRR preserved",
+    "horizon": "one month, no compounding",
+    "costs": "excluded",
+    "interpretation": "model-based predictive sensitivity; not a real-world confidence interval"
+  }
+}

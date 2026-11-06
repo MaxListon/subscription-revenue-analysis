@@ -1,0 +1,9 @@
+{
+  "all_24_bridges_balance": true,
+  "snapshot_unique": true,
+  "invoice_payments_match": true,
+  "event_subscription_integrity": true,
+  "all_complications_present": true,
+  "no_future_payment_receipts": true,
+  "unattempted_year_end_invoices_open": true
+}
